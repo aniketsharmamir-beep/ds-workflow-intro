@@ -1,12 +1,12 @@
- Dataset Exploration: Titanic
+# Dataset Exploration: Titanic
 
- Overview
-- File: data/raw_dataset.csv
-- Rows: 891 passengers
-- Columns: 12
-- Goal: Understand the passengers and what affected survival.
+## Overview
+- **File:** data/raw_dataset.csv
+- **Rows:** 891 passengers
+- **Columns:** 12
+- **Goal:** Understand the passengers and what affected survival.
 
- Column Schema
+## Column Schema
 
 | Column | Data Type | Description |
 |---|---|---|
@@ -23,7 +23,7 @@
 | Cabin | Text | Cabin number |
 | Embarked | Categorical | Port of boarding: C = Cherbourg, Q = Queenstown, S = Southampton |
 
-  Missing Values
+## Missing Values
 
 | Column | Missing Count |
 |---|---|
@@ -33,7 +33,7 @@
 
 All other columns have no missing values.
 
- Initial Observations
+## Initial Observations
 - Cabin is missing for most passengers, so it is hard to use without heavy cleaning.
 - Age has some gaps that could be filled with the median age.
 - Survived is the likely target column for prediction.
